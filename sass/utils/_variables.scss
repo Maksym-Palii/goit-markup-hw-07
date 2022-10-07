@@ -1,0 +1,20 @@
+:root {
+    --color-text-main: #757575;
+    --color-text-titel: #212121;
+    --color-text-white: #FFFFFF;
+    --color-text-black: #000000;
+    --color-text-logo: #2196F3;
+    --color-text-foter: rgba(255, 255, 255, 0.6);
+    --background-color-hero: #C4C4C4;
+    --background-color-footer: #2F303A;
+    --background-color-section: #F5F4FA;
+    --background-color-card: #FFFFFF;
+    --hover-main: #2196F3;
+    --hover-secondary: #188CE8;
+    --color-client: #AFB1B8;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--color-text-main);
+}

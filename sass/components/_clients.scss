@@ -1,0 +1,32 @@
+// постійні клієнти
+
+.client-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.client-list__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--color-client);
+    border-radius: 4px;
+    color: var(--color-client);
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--hover-main);
+        border: 1px solid var(--hover-main);
+    }
+}
+
+.client-list__logo {
+    fill: currentColor;
+}

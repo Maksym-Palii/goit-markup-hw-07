@@ -1,0 +1,32 @@
+.link {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0;
+}
+
+.list {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
