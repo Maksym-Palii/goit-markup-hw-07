@@ -4,31 +4,10 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
 .page-header__container {
     display: flex;
     align-items: center;
 
-}
-
-.logo {
-    padding: 24px 0 25px 0;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: var(--color-text-logo);
-}
-
-.logo--black {
-    color: var(--color-text-black);
 }
 
 .nav {

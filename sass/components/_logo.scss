@@ -1,0 +1,27 @@
+// Хедер
+
+.logo {
+    padding: 24px 0 25px 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--color-text-logo);
+}
+
+.logo--black {
+    color: var(--color-text-black);
+}
+
+// Футер
+
+.logo--white {
+    color: var(--color-text-white);
+}
+
+.logo-footer {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 0;
+}

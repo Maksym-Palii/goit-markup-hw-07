@@ -12,16 +12,6 @@
     gap: 70px;
 }
 
-.logo--white {
-    color: var(--color-text-white);
-}
-
-.logo-footer {
-    display: inline-block;
-    margin-bottom: 20px;
-    padding: 0;
-}
-
 .address-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
@@ -54,12 +44,6 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--color-text-white);
-}
-
-
-.socialicon-list__link--color {
-    color: var(--color-text-white);
-    background-color: rgba(225, 225, 225, 0.1);
 }
 
 // Форма відправки
@@ -102,16 +86,4 @@
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
     }
-}
-
-.btn--pading {
-    display: flex;
-    align-items: center;
-
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    padding: 10px 28px;
-}
-
-.btn__icon {
-    margin-left: 10px;
 }
